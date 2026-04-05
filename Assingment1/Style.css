@@ -1,0 +1,59 @@
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.noBold {
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 1.2;
+}
+
+/* Hover */
+
+ .image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.hover-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-container:hover .hover-box {
+  opacity: 1;
+}
+
+img {
+  display: block;
+  width: 300px;
+  height: auto;
+}
+
+/*StyleBox*/
+.StyleBox:link, .StyleBox:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.StyleBox:hover {
+  background-color: red;
+}
