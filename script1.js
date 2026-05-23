@@ -10,5 +10,5 @@ function showPopup() {
   }, 3000);
 }
 
-// repeat every 10 seconds
-setInterval(showPopup, 10000);
+// repeat every 10 secondss
+setInterval(showPopup, 10000); 
