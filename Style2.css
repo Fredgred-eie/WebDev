@@ -166,14 +166,12 @@
 }
 
 
-h2 {
+h2, h1, h3 {
   font-family: 'Outfit', sans-serif;
 }
 
-h1 {
-  font-family: 'Outfit', sans-serif;
-}
-
-h3 {
-  font-family: 'Outfit', sans-serif;
+form {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
 }
